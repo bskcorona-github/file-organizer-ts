@@ -1,0 +1,27 @@
+{
+  "name": "file-organizer-ts",
+  "version": "1.0.0",
+  "description": "A file organization utility in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "organize": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "file",
+    "organizer",
+    "utility",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
